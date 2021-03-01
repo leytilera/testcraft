@@ -1,0 +1,57 @@
+{
+  "id": "testcraftp2",
+  "type": "modpack",
+  "versions": [
+    {
+      "version": "1.0"
+      "versionid": -1,
+      "mcversion": [
+        "1.6.4"
+      ],
+      "files": [
+        {
+          "id": "overrides",
+          "installer": "internal.overrides",
+          "link": "file://overrides",
+          "options": [
+            "client",
+            "server",
+            "required",
+            "included"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "id": "forge",
+          "versions": "[1.6.4-9.11.1.1345]",
+          "type": "modloader",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "name": "Testcraft Phase 2",
+    "contributors": [
+      {
+        "name": "tilera",
+        "roles": [
+          "owner"
+        ]
+      },
+      {
+        "name": "LordMZTE",
+        "roles": [
+          "author"
+        ]
+      }
+    ]
+  },
+  "asversion": 1
+}
