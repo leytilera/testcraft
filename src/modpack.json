@@ -1,5 +1,6 @@
 {
   "id" : "testcraftp2",
+  "type" : "modpack",
   "meta" : {
     "name" : "Testcraft Phase 2",
     "contributors" : [
@@ -19,6 +20,11 @@
   },
   "versions" : [
     {
+      "version" : "1.1",
+      "versionid" : -1,
+      "mcversion" : [
+        "1.6.4"
+      ],
       "relations" : [
         {
           "options" : [
@@ -180,14 +186,15 @@
             "required",
             "included"
           ],
-          "id" : "CalclaviaCore",
+          "id" : "resonantengine",
           "meta" : {
-            "name" : "CalclaviaCore"
+            "name" : "Resonant Engine"
           },
           "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Calclavia%20Core-1.1.1.266-main.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "resonant:Resonant-Engine:1.2.0:universal",
+            "repository":"tilera"
           }
         },
         {
@@ -995,14 +1002,15 @@
             "required",
             "included"
           ],
-          "id" : "Resonant-Induction",
+          "id" : "resonantinduction",
           "meta" : {
             "name" : "Resonant-Induction"
           },
           "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Resonant-Induction-0.3.1.329.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "resonantinduction:resonantinduction:0.3.1.396",
+            "repository":"tilera"
           }
         },
         {
@@ -1204,9 +1212,10 @@
             "name" : "Universal-Electricity"
           },
           "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Universal-Electricity-3.1.0.74-core.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "resonant:Universal-Electricity:3.1.0.115:universal",
+            "repository": "tilera"
           }
         },
         {
@@ -1917,9 +1926,6 @@
           "type" : "modloader"
         }
       ],
-      "mcversion" : [
-        "1.6.4"
-      ],
       "files" : [
         {
           "link" : "file://overrides",
@@ -1932,11 +1938,15 @@
           ],
           "id" : "overrides"
         }
-      ],
-      "version" : "1.0",
-      "versionid" : -1
+      ]
     }
   ],
-  "type" : "modpack",
+  "repositories": [
+    {
+      "id": "tilera",
+      "type": "maven",
+      "url": "https://data.tilera.xyz/maven/"
+    }
+  ],
   "asversion" : 1
 }
