@@ -1,2 +1,2 @@
-# v1.0
-initial release
+# v1.1
+- Updated Resonant Induction
