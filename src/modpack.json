@@ -1,12 +1,1752 @@
 {
-  "id" : "testcraftp2",
-  "type" : "modpack",
-  "meta" : {
-    "name" : "Testcraft Phase 2",
-    "contributors" : [
+  "id": "testcraft",
+  "type": "modpack",
+  "versions": [
+    {
+      "version": "2.1",
+      "versionid": -1,
+      "mcversion": [
+        "1.7.10"
+      ],
+      "files": [
+        {
+          "id": "overrides",
+          "installer": "internal.override",
+          "link": "file://overrides"
+        }
+      ],
+      "relations": [
+        {
+          "id": "302569",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:302569:2614309",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "230250",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:230250:2628991",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "232838",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:232838:2427862",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "61811",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:61811:2502739",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "367919",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:367919:2903887",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "67313",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:67313:2280862",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "223957",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:223957:2772380",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "223959",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:223959:2556640",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228027",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228027:2423369",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "241994",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:241994:2282591",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "69162",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:69162:2388750",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "223525",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:223525:2467142",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "59751",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:59751:2333823",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "224791",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:224791:2264826",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "221014",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:221014:2272835",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "222995",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:222995:2235481",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228932",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228932:2719376",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228759",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228759:2230918",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "67504",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:67504:2269339",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "226712",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:226712:2230737",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228744",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228744:2230809",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "236669",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:236669:2336582",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "379275",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:379275:2942270",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "231868",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:231868:2331048",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "224613",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:224613:2248029",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229306",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229306:2262092",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "222213",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:222213:2262089",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "225921",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:225921:2242378",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "225561",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:225561:2264383",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229218",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229218:2497337",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "392300",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:392300:2990432",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "70492",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:70492:2269267",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "70496",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:70496:2269259",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "332040",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:332040:2747606",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "326856",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:326856:2738315",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "332040",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:332040:2747605",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229073",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229073:2232170",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229060",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229060:2338148",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "72210",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:72210:2211247",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "236813",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:236813:2464673",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "318646",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:318646:3253257",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "242638",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:242638:2353971",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228756",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228756:2230908",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228834",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228834:2231112",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "268560",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:268560:2475797",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "268566",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:268566:2475792",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "268567",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:268567:2475793",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "368422",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:368422:2905830",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "66672",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:66672:2277485",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "362768",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:362768:2885953",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "316141",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:316141:2681442",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "235442",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235442:2666986",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "235440",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235440:2681246",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "55438",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:55438:2221679",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "224599",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:224599:2417042",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "222211",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:222211:2302312",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "235107",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235107:2308819",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "225815",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:225815:2272500",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "59769",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:59769:2210527",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228816",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228816:2386733",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228815",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228815:2765573",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "223008",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:223008:2828353",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229084",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229084:2480016",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "225064",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:225064:2263111",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229050",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229050:2280736",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228702",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228702:2280728",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "230111",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:230111:2280732",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229045",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229045:2280731",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229046",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229046:2280733",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229048",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229048:2280734",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "242974",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:242974:2332516",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "51195",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:51195:2299713",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "59816",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:59816:2225310",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "70631",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:70631:2277490",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "67593",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:67593:2230525",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "79325",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:79325:2267185",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "220333",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:220333:2388747",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "242292",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:242292:2373415",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228625",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228625:2230425",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "228626",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228626:2230424",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "74072",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:74072:2264246",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "78057",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:78057:2272157",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "74924",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:74924:2264244",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "223628",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:223628:2227552",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "222880",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:222880:2388752",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "69163",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:69163:2388758",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "227443",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:227443:2388756",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "245169",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:245169:2961721",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "227639",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:227639:3039937",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "67133",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:67133:2435506",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "227576",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:227576:2308375",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "79287",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:79287:2270923",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "73488",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:73488:2230518",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "69673",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:69673:2234410",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "32274",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:32274:2367915",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "229314",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:229314:2233235",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "77191",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:77191:2221721",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "316867",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:316867:3187833",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "443761",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:443761:3194519",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "231208",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:231208:2250916",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id" : "appeng",
+          "meta" : {
+            "name" : "AppEng 2 tilera Edition"
+          },
+          "file" : {
+            "link" : "https://build.tilera.xyz/job/AppEngTE/lastSuccessfulBuild/artifact/build/libs/appliedenergistics2-rv3-beta-18.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "resonantengine",
+          "meta" : {
+            "name" : "Resonant Engine"
+          },
+          "file" : {
+            "link" : "https://data.tilera.xyz/maven/resonant/Resonant-Engine/3.3.0.437/Resonant-Engine-3.3.0.437-core.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "edx",
+          "meta" : {
+            "name" : "Electrodynamics"
+          },
+          "file" : {
+            "link" : "https://build.tilera.xyz/job/Electrodynamics/lastSuccessfulBuild/artifact/output/electrodynamics-0.3.5.3-core.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "dartcraft",
+          "meta" : {
+            "name" : "Dartcraft Alpha"
+          },
+          "file" : {
+            "link" : "https://build.tilera.xyz/job/dartcraft/lastSuccessfulBuild/artifact/build/libs/dartcraft-1.0.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "advmachines",
+          "meta" : {
+            "name" : "Advanced Machines"
+          },
+          "file" : {
+            "link" : "http://immibis.com/mcmoddl/files/advanced-machines-59.0.2.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "advrepsys",
+          "meta" : {
+            "name" : "Advanced Repulsion Systems"
+          },
+          "file" : {
+            "link" : "http://immibis.com/mcmoddl/files/adv-repulsion-systems-59.0.4.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "immibiscore",
+          "meta" : {
+            "name" : "Immibis Core"
+          },
+          "file" : {
+            "link" : "http://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "immibisperi",
+          "meta" : {
+            "name" : "Immibis Peripherals"
+          },
+          "file" : {
+            "link" : "http://immibis.com/mcmoddl/files/immibis-peripherals-59.0.3.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "liquidxp",
+          "meta" : {
+            "name" : "Liquid XP"
+          },
+          "file" : {
+            "link" : "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "tubestuff",
+          "meta" : {
+            "name" : "TubeStuff"
+          },
+          "file" : {
+            "link" : "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "statues",
+          "meta" : {
+            "name" : "Statues"
+          },
+          "file" : {
+            "link" : "https://cdn.tilera.xyz/minecraft/mods/statues/STATUES-1.7.10-2.1.4.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id" : "asielib",
+          "meta" : {
+            "name" : "Asie Lib"
+          },
+          "file" : {
+            "link" : "https://cdn.tilera.xyz/minecraft/mods/statues/AsieLib-1.7.10-0.4.5.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "forge",
+          "versions": "[1.7.10-10.13.4.1614-1.7.10]",
+          "type": "modloader",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        }
+      ]
+    }
+  ],
+  "repositories": [
+    {
+      "id": "curse",
+      "type": "curseforge",
+      "url": "https://www.cursemaven.com/"
+    }
+  ],
+  "meta": {
+    "name": "Testcraft Phase 2.1",
+    "contributors": [
       {
-        "name" : "tilera",
-        "roles" : [
+        "name": "tilera",
+        "roles": [
           "owner"
         ]
       },
@@ -18,1935 +1758,5 @@
       }
     ]
   },
-  "versions" : [
-    {
-      "version" : "1.1",
-      "versionid" : -1,
-      "mcversion" : [
-        "1.6.4"
-      ],
-      "relations" : [
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "forgemultipart",
-          "meta" : {
-            "name" : "forgemultipart"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ForgeMultipart-universal-1.6.4-1.0.1.268.jar",
-            "installer" : "internal.dir:mods/1.6.4"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "codechickenlib",
-          "meta" : {
-            "name" : "codechickenlib"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/CodeChickenLib-universal-1.6.4-1.0.0.62.jar",
-            "installer" : "internal.dir:mods/1.6.4"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "AELights",
-          "meta" : {
-            "name" : "AELights"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/AELights-0.2.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "AM2",
-          "meta" : {
-            "name" : "AM2"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/AM2_1.1.2.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "AdditionalPipes",
-          "meta" : {
-            "name" : "AdditionalPipes"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/AdditionalPipes-Buildcraft-4.2.x-mc-1.6.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "BiblioCraft",
-          "meta" : {
-            "name" : "BiblioCraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/BiblioCraft%5bv1.5.5%5d.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "BigReactors",
-          "meta" : {
-            "name" : "BigReactors"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/BigReactors-0.3.4A2.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "BloodMagic",
-          "meta" : {
-            "name" : "BloodMagic"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Blood%20Magic%20v1.0.0b.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "BuildcraftAddon",
-          "meta" : {
-            "name" : "BuildcraftAddon"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/BuildcraftAddon-1.6.4_0.3.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "resonantengine",
-          "meta" : {
-            "name" : "Resonant Engine"
-          },
-          "type" : "mod",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "resonant:Resonant-Engine:1.2.0:universal",
-            "repository":"tilera"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "CarpenterBlocks",
-          "meta" : {
-            "name" : "CarpenterBlocks"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Carpenter's%20Blocks%20v3.2.8.6%20-%20MC%201.6.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "CoFHCore",
-          "meta" : {
-            "name" : "CoFHCore"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/CoFHCore-2.0.0.5.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "CodeChickenCore",
-          "meta" : {
-            "name" : "CodeChickenCore"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/CodeChickenCore-1.6.4-0.9.0.9-universal.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ComputerCraft",
-          "meta" : {
-            "name" : "ComputerCraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ComputerCraft1.57.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "DartCraft",
-          "meta" : {
-            "name" : "DartCraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/DartCraft%20Beta%200.2.18.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "DynamicTransport",
-          "meta" : {
-            "name" : "DynamicTransport"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/DynamicTransport-1.6.4-0.1.0.2.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "EmasherResource",
-          "meta" : {
-            "name" : "EmasherResource"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/EmasherResource-1.2.3.5.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "EnderIO",
-          "meta" : {
-            "name" : "EnderIO"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/EnderIO-1.6.4-1.0.6.376.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "EnderStorage",
-          "meta" : {
-            "name" : "EnderStorage"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/EnderStorage-1.6.4-1.4.3.6-universal.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "EngineersToolbox",
-          "meta" : {
-            "name" : "EngineersToolbox"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/EngineersToolbox-1.1.8.4.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Enhanced-Portals-3",
-          "meta" : {
-            "name" : "Enhanced-Portals-3"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Enhanced-Portals-3-Mod-1.6.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ExtraCells",
-          "meta" : {
-            "name" : "ExtraCells"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ExtraCells-Mod-1.6.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Factorization",
-          "meta" : {
-            "name" : "Factorization"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Factorization-0.8.22.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Galacticraft",
-          "meta" : {
-            "name" : "Galacticraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Galacticraft-1.6.4-2.0.14.1098.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Galacticraft-Planets",
-          "meta" : {
-            "name" : "Galacticraft-Planets"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Galacticraft-Planets-1.6.4-2.0.14.1098.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Hats",
-          "meta" : {
-            "name" : "Hats"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Hats2.1.8.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "HopperDuctsMod",
-          "meta" : {
-            "name" : "HopperDuctsMod"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/HopperDuctsMod1.2.2.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "IC2NuclearControl",
-          "meta" : {
-            "name" : "IC2NuclearControl"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/IC2NuclearControl-1.6.2e-ic2-experimental.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Industrialcraft",
-          "meta" : {
-            "name" : "Industrialcraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Industrialcraft-2_2.0.397-experimental.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "LogisticsPipes",
-          "meta" : {
-            "name" : "LogisticsPipes"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/LogisticsPipes-MC1.6.4-0.7.4.dev.294.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Mekanism",
-          "meta" : {
-            "name" : "Mekanism"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Mekanism-6.0.4.42.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "MekanismGenerators",
-          "meta" : {
-            "name" : "MekanismGenerators"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/MekanismGenerators-6.0.4.42.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "MekanismTools",
-          "meta" : {
-            "name" : "MekanismTools"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/MekanismTools-6.0.4.42.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "MicdoodleCore",
-          "meta" : {
-            "name" : "MicdoodleCore"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/MicdoodleCore-1.6.4-2.0.14.1098.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "MineFactoryReloaded",
-          "meta" : {
-            "name" : "MineFactoryReloaded"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/MineFactoryReloaded-2.7.9-final.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Minechem",
-          "meta" : {
-            "name" : "Minechem"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Minechem-5.0.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "MinecraftLoader",
-          "meta" : {
-            "name" : "MinecraftLoader"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/MinecraftLoader%200.1%20mc1.6.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ModularPowersuits",
-          "meta" : {
-            "name" : "ModularPowersuits"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ModularPowersuits-1.6.4-0.10.0-91.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "MrCrayfishFurnitureMod",
-          "meta" : {
-            "name" : "MrCrayfishFurnitureMod"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/MrCrayfishFurnitureModv3.3.4(1.6.4).jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "NotEnoughItems",
-          "meta" : {
-            "name" : "NotEnoughItems"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/NotEnoughItems-1.6.4-1.6.1.9-universal.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "OBSIDIPLATES",
-          "meta" : {
-            "name" : "OBSIDIPLATES"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/OBSIDIPLATES-1.6.2-UNIVERSAL-2.0.0.15.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "OpenBlocks",
-          "meta" : {
-            "name" : "OpenBlocks"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/OpenBlocks-1.2.9.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "OpenComputers",
-          "meta" : {
-            "name" : "OpenComputers"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/OpenComputers-MC1.6.4-1.3.6.561-universal.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "OpenModsLib",
-          "meta" : {
-            "name" : "OpenModsLib"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/OpenModsLib-0.5.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "PluginsforForestry",
-          "meta" : {
-            "name" : "PluginsforForestry"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/PluginsforForestry-1.6.4-3.2.30.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "PortalGun",
-          "meta" : {
-            "name" : "PortalGun"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/PortalGun2.0.1.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "PowerConverters",
-          "meta" : {
-            "name" : "PowerConverters"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/PowerConverters-1.6.4-39.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "PowerCrystalsCore",
-          "meta" : {
-            "name" : "PowerCrystalsCore"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/PowerCrystalsCore-1.1.8-9.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ProjectBench",
-          "meta" : {
-            "name" : "ProjectBench"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ProjectBench-1.6.2-v1.8.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ProjectRedBase",
-          "meta" : {
-            "name" : "ProjectRedBase"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ProjectRedBase-1.6.4-4.1.0.13.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ProjectRedCompat",
-          "meta" : {
-            "name" : "ProjectRedCompat"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ProjectRedCompat-1.6.4-4.1.0.13.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ProjectRedIntegration",
-          "meta" : {
-            "name" : "ProjectRedIntegration"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ProjectRedIntegration-1.6.4-4.1.0.13.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ProjectRedLighting",
-          "meta" : {
-            "name" : "ProjectRedLighting"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ProjectRedLighting-1.6.4-4.1.0.13.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Railcraft",
-          "meta" : {
-            "name" : "Railcraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Railcraft_1.6.4-8.4.0.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "RandomThings",
-          "meta" : {
-            "name" : "RandomThings"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Random_Things_v._1.9__MC_1.6.4_.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "RedstoneArsenal",
-          "meta" : {
-            "name" : "RedstoneArsenal"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/RedstoneArsenal-1.0.0.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "RemoteIO",
-          "meta" : {
-            "name" : "RemoteIO"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/RemoteIO-1.8.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "resonantinduction",
-          "meta" : {
-            "name" : "Resonant-Induction"
-          },
-          "type" : "mod",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "resonantinduction:resonantinduction:0.3.1.396",
-            "repository":"tilera"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "SimplyJetpacks",
-          "meta" : {
-            "name" : "SimplyJetpacks"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/SimplyJetpacks-0.3.1.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "SlimevoidLib",
-          "meta" : {
-            "name" : "SlimevoidLib"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/SlimevoidLib-1.6.4-2.1.0.0.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "SpmodAPI",
-          "meta" : {
-            "name" : "SpmodAPI"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/SpmodAPI%20Version%201.4.5.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "StevesCarts",
-          "meta" : {
-            "name" : "StevesCarts"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/StevesCarts2.0.0.b10.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "StevesFactoryManager",
-          "meta" : {
-            "name" : "StevesFactoryManager"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/StevesFactoryManagerA83.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "TConstruct",
-          "meta" : {
-            "name" : "TConstruct"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/TConstruct_mc1.6.4_EX.30.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "TMechworks",
-          "meta" : {
-            "name" : "TMechworks"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/TMechworks_mc1.6.4_0.1.6.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Thaumcraft",
-          "meta" : {
-            "name" : "Thaumcraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Thaumcraft4.0.5b.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ThermalExpansion",
-          "meta" : {
-            "name" : "ThermalExpansion"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ThermalExpansion-3.0.0.7.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "TinyChest",
-          "meta" : {
-            "name" : "TinyChest"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/TinyChest%20Version%201.9.10.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "TwilightForest",
-          "meta" : {
-            "name" : "TwilightForest"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Twilight%20Forest%20-%20MC%201.6.4%20-%201.20.5.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Universal-Electricity",
-          "meta" : {
-            "name" : "Universal-Electricity"
-          },
-          "type" : "mod",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "resonant:Universal-Electricity:3.1.0.115:universal",
-            "repository": "tilera"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "VeinMiner",
-          "meta" : {
-            "name" : "VeinMiner"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/VeinMiner.0.12.3_MC1.6.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "VeinMinerModSupport",
-          "meta" : {
-            "name" : "VeinMinerModSupport"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/VeinMinerModSupport.0.5.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "WR-CBE",
-          "meta" : {
-            "name" : "WR-CBE"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/WR-CBE%201.4.0.7.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "WailaHarvestability",
-          "meta" : {
-            "name" : "WailaHarvestability"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/WailaHarvestability-mc1.6.4-1.1.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "Waila",
-          "meta" : {
-            "name" : "Waila"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/Waila_1.5.2.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ZansMinimap",
-          "meta" : {
-            "name" : "ZansMinimap"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ZansMinimap1.6.4.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "adv-repulsion-systems",
-          "meta" : {
-            "name" : "adv-repulsion-systems"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/adv-repulsion-systems-57.1.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "advanced-machines",
-          "meta" : {
-            "name" : "advanced-machines"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/advanced-machines-57.3.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "advancedgenetics",
-          "meta" : {
-            "name" : "advancedgenetics"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/advancedgenetics_v1.4.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "appeng",
-          "meta" : {
-            "name" : "appeng"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/appeng-rv14-finale3-mc16x.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "backpacks",
-          "meta" : {
-            "name" : "backpacks"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/backpacks+1.6.4+-+3.0.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "balancedexchange",
-          "meta" : {
-            "name" : "balancedexchange"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/balancedexchange+1.6.4+-+3.0.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "bcTools",
-          "meta" : {
-            "name" : "bcTools"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/bcTools-v1.4-a-17.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "bdlib",
-          "meta" : {
-            "name" : "bdlib"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/bdlib-mc164-1.2.3.48.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "binnie-mods",
-          "meta" : {
-            "name" : "binnie-mods"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/binnie-mods-1.8.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "buildcraft",
-          "meta" : {
-            "name" : "buildcraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/buildcraft-A-1.6.4-4.2.2.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "additional-buildcraft-objects",
-          "meta" : {
-            "name" : "additional-buildcraft-objects"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/buildcraft-Z-additional-buildcraft-objects-1.0.6.180.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "compactsolars",
-          "meta" : {
-            "name" : "compactsolars"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/compactsolars-universal-1.6.4-4.4.21.306.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "dartpatch",
-          "meta" : {
-            "name" : "dartpatch"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/dartpatch_1.6.4_icon-fix.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "denLib",
-          "meta" : {
-            "name" : "denLib"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/denLib-1.6.4-3.2.4.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "electricmagictools",
-          "meta" : {
-            "name" : "electricmagictools"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/electricmagictools-1.0.6.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "extrautils",
-          "meta" : {
-            "name" : "extrautils"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/extrautils-1.0.3c.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "forestry",
-          "meta" : {
-            "name" : "forestry"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/forestry-A-2.3.1.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "gendustry",
-          "meta" : {
-            "name" : "gendustry"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/gendustry-mc164-1.1.3.fix1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "iChunUtil",
-          "meta" : {
-            "name" : "iChunUtil"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/iChunUtil2.4.0.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "immibis-core",
-          "meta" : {
-            "name" : "immibis-core"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/immibis-core-57.2.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "immibis-peripherals",
-          "meta" : {
-            "name" : "immibis-peripherals"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/immibis-peripherals-57.0.2.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "ironchest",
-          "meta" : {
-            "name" : "ironchest"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/ironchest-universal-1.6.4-5.4.1.649.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "liquid-xp",
-          "meta" : {
-            "name" : "liquid-xp"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/liquid-xp-57.0.0.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "magicalcrops",
-          "meta" : {
-            "name" : "magicalcrops"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/magicalcrops-1.6.4_3.2.0_BETA_23.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "AdvancedSolarPanels",
-          "meta" : {
-            "name" : "AdvancedSolarPanels"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/mod_AdvancedSolarPanels_3_4_7_IC_EXP.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "GraviSuite",
-          "meta" : {
-            "name" : "GraviSuite"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/mod_zGraviSuite_1_9_9a_MC_1_6_4_IC_EXP.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "mystcraft",
-          "meta" : {
-            "name" : "mystcraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/mystcraft-uni-1.6.4-0.10.13.00.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "numina",
-          "meta" : {
-            "name" : "numina"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/numina-0.3.0.80.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "powersuitaddons",
-          "meta" : {
-            "name" : "powersuitaddons"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/powersuitaddons-1.6.4-887.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "qcraft",
-          "meta" : {
-            "name" : "qcraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/qcraft1.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "skin-fixer",
-          "meta" : {
-            "name" : "skin-fixer"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/skin-fixer-1.0.1.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "statues",
-          "meta" : {
-            "name" : "statues"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/statues-1.6.4-2.0.2.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "traincraft",
-          "meta" : {
-            "name" : "traincraft"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/traincraft-4.1.4_018.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "tubestuff",
-          "meta" : {
-            "name" : "tubestuff"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/tubestuff-57.1.3.jar",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ],
-          "id" : "witchery",
-          "meta" : {
-            "name" : "witchery"
-          },
-          "type" : "mod",
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/testcraftp2/witchery-1.6.4-0.20.5.zip",
-            "installer" : "internal.dir:mods"
-          }
-        },
-        {
-          "options" : [
-            "required",
-            "client",
-            "server",
-            "included"
-          ],
-          "id" : "forge",
-          "meta" : {
-            "name" : "forge"
-          },
-          "versions" : "[1.6.4-9.11.1.1345]",
-          "type" : "modloader"
-        }
-      ],
-      "files" : [
-        {
-          "link" : "file://overrides",
-          "installer" : "internal.override",
-          "options" : [
-            "client",
-            "server",
-            "required",
-            "included"
-          ],
-          "id" : "overrides"
-        }
-      ]
-    }
-  ],
-  "repositories": [
-    {
-      "id": "tilera",
-      "type": "maven",
-      "url": "https://data.tilera.xyz/maven/"
-    }
-  ],
-  "asversion" : 1
+  "asversion": 1
 }
