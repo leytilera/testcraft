@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "2.1",
+      "version": "2.1.1",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -16,6 +16,36 @@
         }
       ],
       "relations": [
+        {
+          "id": "237167",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:237167:2291433",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "237102",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:237102:2291494",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
         {
           "id": "302569",
           "file": {
