@@ -1556,7 +1556,7 @@
             "name" : "Electrodynamics"
           },
           "file" : {
-            "link" : "https://build.tilera.xyz/job/Electrodynamics/lastSuccessfulBuild/artifact/output/electrodynamics-0.3.5.3-core.jar",
+            "link" : "https://build.tilera.xyz/job/Electrodynamics/lastSuccessfulBuild/artifact/output/electrodynamics-0.3.5.7-core.jar",
             "installer" : "internal.dir:mods"
           },
           "type" : "mod",
