@@ -1585,6 +1585,23 @@
           ]
         },
         {
+          "id" : "pocketcraft",
+          "meta" : {
+            "name" : "PocketCraft"
+          },
+          "file" : {
+            "link" : "https://build.tilera.xyz/job/PocketCraft/2/artifact/build/libs/pocketcraft-1.0.jar",
+            "installer" : "internal.dir:mods"
+          },
+          "type" : "mod",
+          "options" : [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
           "id" : "advmachines",
           "meta" : {
             "name" : "Advanced Machines"
