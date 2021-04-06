@@ -1722,7 +1722,7 @@
             "name" : "TubeStuff"
           },
           "file" : {
-            "link" : "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar",
+            "link" : "http://immibis.com/mcmoddl/files/tubestuff-59.0.4.jar",
             "installer" : "internal.dir:mods"
           },
           "type" : "mod",
