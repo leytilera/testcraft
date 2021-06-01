@@ -12,7 +12,7 @@ steps:
     - name: publish
       image: plugins/gitea-release
       settings:
-          base_url: https://data.tilera.xyz/git
+          base_url: https://tilera.xyz/git
           api_key:
               from_secret: gitea_token
           note: CHANGELOG.md
