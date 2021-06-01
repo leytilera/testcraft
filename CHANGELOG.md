@@ -1,5 +1,7 @@
-# v2.1.4
-- Updated Dartcraft
-- Updated PocketCraft
-- Added Alchemycraft
-- Added Mimicry
+# v3.0
+- Entering Phase 3
+- Removed Electrodynamics
+- Added Rotarycraft and addons
+- Added PlayerAPI
+- Fixed Extra Utilities bug
+
