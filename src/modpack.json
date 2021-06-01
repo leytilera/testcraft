@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "2.1.4",
+      "version": "3.0",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -16,6 +16,81 @@
         }
       ],
       "relations": [
+        {
+          "id": "playerapi",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:228969:2248928",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "rotaryc",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235596:3255385",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "reactorc",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235593:3253459",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "electric",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235594:3248584",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "dragonapi",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235591:3255384",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
         {
           "id": "223904",
           "file": {
@@ -1562,29 +1637,27 @@
           ]
         },
         {
+          "id": "tcu",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "ley.modding:testcraftupdate:1.0",
+            "repository": "tilera"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
           "id" : "appeng",
           "meta" : {
             "name" : "AppEng 2 tilera Edition"
           },
           "file" : {
             "link" : "https://build.tilera.xyz/job/AppEngTE/lastSuccessfulBuild/artifact/build/libs/appliedenergistics2-rv3-beta-18.jar",
-            "installer" : "internal.dir:mods"
-          },
-          "type" : "mod",
-          "options" : [
-            "server",
-            "client",
-            "required",
-            "included"
-          ]
-        },
-        {
-          "id" : "edx",
-          "meta" : {
-            "name" : "Electrodynamics"
-          },
-          "file" : {
-            "link" : "https://build.tilera.xyz/job/Electrodynamics/12/artifact/output/electrodynamics-0.3.5.12-core.jar",
             "installer" : "internal.dir:mods"
           },
           "type" : "mod",
@@ -1903,10 +1976,15 @@
       "id": "curse",
       "type": "curseforge",
       "url": "https://www.cursemaven.com/"
+    },
+    {
+      "id": "tilera",
+      "type": "maven",
+      "url": "https://data.tilera.xyz/maven/"
     }
   ],
   "meta": {
-    "name": "Testcraft Phase 2.1",
+    "name": "Testcraft Phase 3",
     "contributors": [
       {
         "name": "tilera",
