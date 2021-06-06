@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "3.0",
+      "version": "3.1",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -16,6 +16,21 @@
         }
       ],
       "relations": [
+        {
+          "id": "crafttweaker",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:239197:2838720",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
         {
           "id": "playerapi",
           "file": {

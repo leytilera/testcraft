@@ -1,7 +1,4 @@
-# v3.0
-- Entering Phase 3
-- Removed Electrodynamics
-- Added Rotarycraft and addons
-- Added PlayerAPI
-- Fixed Extra Utilities bug
+# v3.1
+- Removed End Portal recipe
+- Disables experience seas
 
