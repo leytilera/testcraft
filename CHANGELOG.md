@@ -1,4 +1,5 @@
-# v3.1
-- Removed End Portal recipe
-- Disables experience seas
+# v3.1.1
+- Fix some links
+- Add Pneumaticcraft
+- Add Chisel
 

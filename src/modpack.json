@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "3.1",
+      "version": "3.1.1",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -16,6 +16,36 @@
         }
       ],
       "relations": [
+        {
+          "id": "chisel",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235279:2287442",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
+        {
+          "id": "pneumaticcraft",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:224125:2513763",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
         {
           "id": "crafttweaker",
           "file": {
@@ -1666,13 +1696,14 @@
             "included"
           ]
         },
-        {
+	{
           "id" : "appeng",
           "meta" : {
             "name" : "AppEng 2 tilera Edition"
           },
           "file" : {
-            "link" : "https://build.tilera.xyz/job/AppEngTE/lastSuccessfulBuild/artifact/build/libs/appliedenergistics2-rv3-beta-18.jar",
+            "artifact": "appeng:appliedenergistics2:rv3-beta-18",
+            "repository": "tilera",
             "installer" : "internal.dir:mods"
           },
           "type" : "mod",
@@ -1689,7 +1720,8 @@
             "name" : "Dartcraft Alpha"
           },
           "file" : {
-            "link" : "https://build.tilera.xyz/job/dartcraft/lastSuccessfulBuild/artifact/build/libs/dartcraft-1.0.jar",
+            "artifact": "ley.modding:dartcraft:1.0",
+            "repository": "tilera",
             "installer" : "internal.dir:mods"
           },
           "type" : "mod",
@@ -1706,7 +1738,8 @@
             "name" : "PocketCraft"
           },
           "file" : {
-            "link" : "https://build.tilera.xyz/job/PocketCraft/2/artifact/build/libs/pocketcraft-1.0.jar",
+            "artifact": "ley.modding:pocketcraft:1.0",
+            "repository": "tilera",
             "installer" : "internal.dir:mods"
           },
           "type" : "mod",
