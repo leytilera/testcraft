@@ -797,21 +797,6 @@
           ]
         },
         {
-          "id": "318646",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:318646:3253257",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
-        },
-        {
           "id": "242638",
           "file": {
             "installer": "internal.dir:mods",
@@ -846,51 +831,6 @@
           "file": {
             "installer": "internal.dir:mods",
             "artifact": "curse.maven:228834:2231112",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
-        },
-        {
-          "id": "268560",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:268560:2475797",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
-        },
-        {
-          "id": "268566",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:268566:2475792",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
-        },
-        {
-          "id": "268567",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:268567:2475793",
             "repository": "curse"
           },
           "type": "mod",
@@ -1652,21 +1592,6 @@
           ]
         },
         {
-          "id": "316867",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:316867:3187833",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
-        },
-        {
           "id": "231208",
           "file": {
             "installer": "internal.dir:mods",
@@ -1696,18 +1621,18 @@
             "included"
           ]
         },
-	{
-          "id" : "appeng",
-          "meta" : {
-            "name" : "AppEng 2 tilera Edition"
+        {
+          "id": "appeng",
+          "meta": {
+            "name": "AppEng 2 tilera Edition"
           },
-          "file" : {
+          "file": {
             "artifact": "appeng:appliedenergistics2:rv3-beta-18",
             "repository": "tilera",
-            "installer" : "internal.dir:mods"
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1715,17 +1640,17 @@
           ]
         },
         {
-          "id" : "dartcraft",
-          "meta" : {
-            "name" : "Dartcraft Alpha"
+          "id": "dartcraft",
+          "meta": {
+            "name": "Dartcraft Alpha"
           },
-          "file" : {
+          "file": {
             "artifact": "ley.modding:dartcraft:1.0",
             "repository": "tilera",
-            "installer" : "internal.dir:mods"
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1733,17 +1658,17 @@
           ]
         },
         {
-          "id" : "pocketcraft",
-          "meta" : {
-            "name" : "PocketCraft"
+          "id": "pocketcraft",
+          "meta": {
+            "name": "PocketCraft"
           },
-          "file" : {
+          "file": {
             "artifact": "ley.modding:pocketcraft:1.0",
             "repository": "tilera",
-            "installer" : "internal.dir:mods"
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1751,16 +1676,16 @@
           ]
         },
         {
-          "id" : "advmachines",
-          "meta" : {
-            "name" : "Advanced Machines"
+          "id": "advmachines",
+          "meta": {
+            "name": "Advanced Machines"
           },
-          "file" : {
-            "link" : "http://immibis.com/mcmoddl/files/advanced-machines-59.0.2.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "http://immibis.com/mcmoddl/files/advanced-machines-59.0.2.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1768,16 +1693,16 @@
           ]
         },
         {
-          "id" : "advrepsys",
-          "meta" : {
-            "name" : "Advanced Repulsion Systems"
+          "id": "advrepsys",
+          "meta": {
+            "name": "Advanced Repulsion Systems"
           },
-          "file" : {
-            "link" : "http://immibis.com/mcmoddl/files/adv-repulsion-systems-59.0.4.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "http://immibis.com/mcmoddl/files/adv-repulsion-systems-59.0.4.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1785,16 +1710,16 @@
           ]
         },
         {
-          "id" : "immibiscore",
-          "meta" : {
-            "name" : "Immibis Core"
+          "id": "immibiscore",
+          "meta": {
+            "name": "Immibis Core"
           },
-          "file" : {
-            "link" : "http://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "http://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1802,16 +1727,16 @@
           ]
         },
         {
-          "id" : "immibisperi",
-          "meta" : {
-            "name" : "Immibis Peripherals"
+          "id": "immibisperi",
+          "meta": {
+            "name": "Immibis Peripherals"
           },
-          "file" : {
-            "link" : "http://immibis.com/mcmoddl/files/immibis-peripherals-59.0.3.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "http://immibis.com/mcmoddl/files/immibis-peripherals-59.0.3.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1819,16 +1744,16 @@
           ]
         },
         {
-          "id" : "liquidxp",
-          "meta" : {
-            "name" : "Liquid XP"
+          "id": "liquidxp",
+          "meta": {
+            "name": "Liquid XP"
           },
-          "file" : {
-            "link" : "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1836,16 +1761,16 @@
           ]
         },
         {
-          "id" : "tubestuff",
-          "meta" : {
-            "name" : "TubeStuff"
+          "id": "tubestuff",
+          "meta": {
+            "name": "TubeStuff"
           },
-          "file" : {
-            "link" : "http://immibis.com/mcmoddl/files/tubestuff-59.0.4.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "http://immibis.com/mcmoddl/files/tubestuff-59.0.4.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1853,16 +1778,16 @@
           ]
         },
         {
-          "id" : "statues",
-          "meta" : {
-            "name" : "Statues"
+          "id": "statues",
+          "meta": {
+            "name": "Statues"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/statues/STATUES-1.7.10-2.1.4.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/STATUES-1.7.10-2.1.4.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1870,16 +1795,16 @@
           ]
         },
         {
-          "id" : "asielib",
-          "meta" : {
-            "name" : "Asie Lib"
+          "id": "asielib",
+          "meta": {
+            "name": "Asie Lib"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/mods/statues/AsieLib-1.7.10-0.4.5.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/AsieLib-1.7.10-0.4.5.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1887,16 +1812,16 @@
           ]
         },
         {
-          "id" : "baubles",
-          "meta" : {
-            "name" : "Baubles"
+          "id": "baubles",
+          "meta": {
+            "name": "Baubles"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/Baubles-1.7.10-1.0.1.10.jar",
-            "installer" : "internal.dir:mods/1.7.10"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/Baubles-1.7.10-1.0.1.10.jar",
+            "installer": "internal.dir:mods/1.7.10"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1904,16 +1829,16 @@
           ]
         },
         {
-          "id" : "ccl",
-          "meta" : {
-            "name" : "CodeChickenLib"
+          "id": "ccl",
+          "meta": {
+            "name": "CodeChickenLib"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/CodeChickenLib-1.7.10-1.1.3.138-universal.jar",
-            "installer" : "internal.dir:mods/1.7.10"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/CodeChickenLib-1.7.10-1.1.3.138-universal.jar",
+            "installer": "internal.dir:mods/1.7.10"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1921,16 +1846,16 @@
           ]
         },
         {
-          "id" : "fmp",
-          "meta" : {
-            "name" : "ForgeMultipart"
+          "id": "fmp",
+          "meta": {
+            "name": "ForgeMultipart"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeMultipart-1.7.10-1.2.0.345-universal.jar",
-            "installer" : "internal.dir:mods/1.7.10"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeMultipart-1.7.10-1.2.0.345-universal.jar",
+            "installer": "internal.dir:mods/1.7.10"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1938,16 +1863,16 @@
           ]
         },
         {
-          "id" : "reloc",
-          "meta" : {
-            "name" : "ForgeRelocation"
+          "id": "reloc",
+          "meta": {
+            "name": "ForgeRelocation"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocation-0.0.1.4-universal.jar",
-            "installer" : "internal.dir:mods/1.7.10"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocation-0.0.1.4-universal.jar",
+            "installer": "internal.dir:mods/1.7.10"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1955,16 +1880,16 @@
           ]
         },
         {
-          "id" : "relocfmp",
-          "meta" : {
-            "name" : "ForgeRelocation FMP"
+          "id": "relocfmp",
+          "meta": {
+            "name": "ForgeRelocation FMP"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocationFMP-0.0.1.2-universal.jar",
-            "installer" : "internal.dir:mods/1.7.10"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocationFMP-0.0.1.2-universal.jar",
+            "installer": "internal.dir:mods/1.7.10"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1972,16 +1897,16 @@
           ]
         },
         {
-          "id" : "mrtjp",
-          "meta" : {
-            "name" : "MrTJPCore"
+          "id": "mrtjp",
+          "meta": {
+            "name": "MrTJPCore"
           },
-          "file" : {
-            "link" : "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/MrTJPCore-1.1.0.33-universal.jar",
-            "installer" : "internal.dir:mods/1.7.10"
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/MrTJPCore-1.1.0.33-universal.jar",
+            "installer": "internal.dir:mods/1.7.10"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -1989,16 +1914,156 @@
           ]
         },
         {
-          "id" : "alchemycraft",
-          "meta" : {
-            "name" : "Alchemycraft"
+          "id": "alchemycraft",
+          "meta": {
+            "name": "Alchemycraft"
           },
-          "file" : {
-            "link" : "https://cdn.modrinth.com/data/7gxxb9BE/versions/1.0.1/alchemycraft-1.0.jar",
-            "installer" : "internal.dir:mods"
+          "file": {
+            "link": "https://cdn.modrinth.com/data/7gxxb9BE/versions/1.0.1/alchemycraft-1.0.jar",
+            "installer": "internal.dir:mods"
           },
-          "type" : "mod",
-          "options" : [
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-cwg",
+          "file": {
+            "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.6.0/cwg-1.6.0.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-mixins",
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00gasstation-mc1.7.10-0.3.5.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-universalelectricity",
+          "file": {
+            "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.1.1/universalelectricity-5.1.1.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-basiccomponents",
+          "file": {
+            "link": "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.1/basiccomponents-2.0.1.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-electricexpansion",
+          "file": {
+            "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.0/electricexpansion-1.0.0.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-assemblyline",
+          "file": {
+            "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.1/assemblyline-1.0.1.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-atomicscience",
+          "file": {
+            "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.1/atomicscience-1.1.1.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-mffs",
+          "file": {
+            "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.5/mffs-1.0.5.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-icbm",
+          "file": {
+            "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.4/icbm-1.0.4.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-mekanism",
+          "file": {
+            "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.12.0/Mekanism-1.7.10-9.12.0.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
             "server",
             "client",
             "required",
@@ -2041,8 +2106,8 @@
         ]
       },
       {
-        "name" : "LordMZTE",
-        "roles" : [
+        "name": "LordMZTE",
+        "roles": [
           "author"
         ]
       }
