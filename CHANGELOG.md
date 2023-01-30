@@ -1,5 +1,5 @@
-# v3.1.1
-- Fix some links
-- Add Pneumaticcraft
-- Add Chisel
+# v3.2.0
+- Update AE2
+- Add Auracore & Classic Casting
+- Add Universal Electricity mods
 

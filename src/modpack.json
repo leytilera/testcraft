@@ -2121,7 +2121,7 @@
     {
       "id": "tilera",
       "type": "maven",
-      "url": "https://data.tilera.xyz/maven/"
+      "url": "https://maven.tilera.xyz/"
     }
   ],
   "meta": {
