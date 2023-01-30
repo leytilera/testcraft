@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "3.1.1",
+      "version": "3.2.0",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -1627,7 +1627,7 @@
             "name": "AppEng 2 tilera Edition"
           },
           "file": {
-            "artifact": "appeng:appliedenergistics2:rv3-beta-18",
+            "artifact": "appeng:appliedenergistics2:rv3-beta-19",
             "repository": "tilera",
             "installer": "internal.dir:mods"
           },
@@ -2060,6 +2060,34 @@
           "id": "mod-mekanism",
           "file": {
             "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.12.0/Mekanism-1.7.10-9.12.0.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-auracore",
+          "file": {
+            "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.8.2/auracore-1.8.2.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-classiccasting",
+          "file": {
+            "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.1.0/classic-casting-1.1.0.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
