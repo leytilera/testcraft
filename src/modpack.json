@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "3.2.0",
+      "version": "3.3.0",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -2017,7 +2017,7 @@
         {
           "id": "mod-atomicscience",
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.1/atomicscience-1.1.1.jar",
+            "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.2/atomicscience-1.1.2.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2073,7 +2073,7 @@
         {
           "id": "mod-auracore",
           "file": {
-            "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.8.2/auracore-1.8.2.jar",
+            "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.8.4/auracore-1.8.4.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2088,6 +2088,20 @@
           "id": "mod-classiccasting",
           "file": {
             "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.1.0/classic-casting-1.1.0.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-redpower",
+          "file": {
+            "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr8-dirty/RedPower-2.0pr8-dirty.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
