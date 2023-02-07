@@ -1,5 +1,3 @@
-# v3.2.0
-- Update AE2
-- Add Auracore & Classic Casting
-- Add Universal Electricity mods
+# v3.4.0
+- Update some mods
 
