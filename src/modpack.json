@@ -1627,7 +1627,7 @@
             "name": "AppEng 2 tilera Edition"
           },
           "file": {
-            "artifact": "appeng:appliedenergistics2:rv3-beta-21",
+            "artifact": "appeng:appliedenergistics2:rv3-beta-23",
             "repository": "tilera",
             "installer": "internal.dir:mods"
           },
@@ -1933,7 +1933,7 @@
         {
           "id": "mod-cwg",
           "file": {
-            "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.6.0/cwg-1.6.0.jar",
+            "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.1/cwg-1.7.1.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -1989,7 +1989,7 @@
         {
           "id": "mod-electricexpansion",
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.0/electricexpansion-1.0.0.jar",
+            "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.2/electricexpansion-1.0.2.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2003,7 +2003,7 @@
         {
           "id": "mod-assemblyline",
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.1/assemblyline-1.0.1.jar",
+            "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.3/assemblyline-1.0.3.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2031,7 +2031,7 @@
         {
           "id": "mod-mffs",
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.6/mffs-1.0.6.jar",
+            "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.8/mffs-1.0.8.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2045,7 +2045,7 @@
         {
           "id": "mod-icbm",
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.4/icbm-1.0.4.jar",
+            "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.8/icbm-1.0.8.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2059,7 +2059,7 @@
         {
           "id": "mod-mekanism",
           "file": {
-            "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.12.0/Mekanism-1.7.10-9.12.0.jar",
+            "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.13.1/Mekanism-1.7.10-9.13.1.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2073,7 +2073,7 @@
         {
           "id": "mod-auracore",
           "file": {
-            "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.8.6/auracore-1.8.6.jar",
+            "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.9.1/auracore-1.9.1.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2087,7 +2087,7 @@
         {
           "id": "mod-classiccasting",
           "file": {
-            "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.3.0/classic-casting-1.3.0.jar",
+            "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.4.1/classic-casting-1.4.1.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2101,7 +2101,7 @@
         {
           "id": "mod-redpower",
           "file": {
-            "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr8-dirty/RedPower-2.0pr8-dirty.jar",
+            "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr10-dirty/RedPower-2.0pr10-dirty.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
