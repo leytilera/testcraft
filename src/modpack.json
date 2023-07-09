@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "3.5.0",
+      "version": "3.5.1",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -1610,7 +1610,7 @@
           "id": "tcu",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "ley.modding:testcraftupdate:1.0",
+            "artifact": "ley.modding:testcraftupdate:1.1.0",
             "repository": "tilera"
           },
           "type": "mod",
