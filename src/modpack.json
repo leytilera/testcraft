@@ -1800,7 +1800,7 @@
             "name": "Asie Lib"
           },
           "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/AsieLib-1.7.10-0.4.5.jar",
+            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/AsieLib-1.7.10-0.4.9.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
@@ -2102,6 +2102,20 @@
           "id": "mod-redpower",
           "file": {
             "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr10-dirty/RedPower-2.0pr10-dirty.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-computronics",
+          "file": {
+            "link": "https://files.vexatos.com/Computronics/Computronics-1.7.10-1.6.6.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
