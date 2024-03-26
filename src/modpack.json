@@ -1627,7 +1627,7 @@
             "name": "AppEng 2 tilera Edition"
           },
           "file": {
-            "artifact": "appeng:appliedenergistics2:rv3-beta-23",
+            "artifact": "appeng:appliedenergistics2:rv3-beta-24",
             "repository": "tilera",
             "installer": "internal.dir:mods"
           },
