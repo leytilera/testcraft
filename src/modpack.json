@@ -2126,6 +2126,34 @@
             "included"
           ]
         },
+	{
+          "id": "mod-hbm",
+          "file": {
+            "link": "https://cdn.modrinth.com/data/M4Z75E5X/versions/11b11Ygl/HBM-NTM-%5B1.0.27_X4998%5D.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+	{
+          "id": "mod-pccompat",
+          "file": {
+            "link": "https://maven.tilera.xyz/net/anvilcraft/pccompat/0.2.1/pccompat-0.2.1.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
         {
           "id": "forge",
           "versions": "[1.7.10-10.13.4.1614-1.7.10]",
