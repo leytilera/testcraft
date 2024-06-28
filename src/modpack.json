@@ -1933,7 +1933,7 @@
         {
           "id": "mod-cwg",
           "file": {
-            "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.1/cwg-1.7.1.jar",
+            "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.2/cwg-1.7.2.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
