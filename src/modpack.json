@@ -2154,6 +2154,20 @@
             "included"
           ]
         },
+	{
+          "id": "mod-projectblue",
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/mods/projectblue/ProjectBlue-1.1.6-mc1.7.10.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
         {
           "id": "forge",
           "versions": "[1.7.10-10.13.4.1614-1.7.10]",
