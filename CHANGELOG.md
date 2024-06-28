@@ -1,3 +1,7 @@
-# v3.6.0
-- Updated AE2 tilera Edition
-- Added Computronics
+# v3.7.0
+- Updated Classic Worldgen
+- Updated Reika mods
+- Added HBM Nuclear Tech Mod
+- Added PCCompat
+- Added Chromaticraft
+- Added ProjectBlue
