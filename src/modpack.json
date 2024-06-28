@@ -80,7 +80,7 @@
           "id": "rotaryc",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235596:3255385",
+            "artifact": "curse.maven:235596:4721191",
             "repository": "curse"
           },
           "type": "mod",
@@ -95,7 +95,7 @@
           "id": "reactorc",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235593:3253459",
+            "artifact": "curse.maven:235593:4721203",
             "repository": "curse"
           },
           "type": "mod",
@@ -110,7 +110,7 @@
           "id": "electric",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235594:3248584",
+            "artifact": "curse.maven:235594:4721198",
             "repository": "curse"
           },
           "type": "mod",
@@ -125,7 +125,7 @@
           "id": "dragonapi",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235591:3255384",
+            "artifact": "curse.maven:235591:4722480",
             "repository": "curse"
           },
           "type": "mod",
