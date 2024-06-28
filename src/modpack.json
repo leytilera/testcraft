@@ -136,6 +136,21 @@
             "included"
           ]
         },
+	{
+          "id": "chromatic",
+          "file": {
+            "installer": "internal.dir:mods",
+            "artifact": "curse.maven:235590:4721192",
+            "repository": "curse"
+          },
+          "type": "mod",
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ]
+        },
         {
           "id": "223904",
           "file": {
