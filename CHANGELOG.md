@@ -1,7 +1,4 @@
-# v3.7.0
-- Updated Classic Worldgen
-- Updated Reika mods
-- Added HBM Nuclear Tech Mod
-- Added PCCompat
-- Added Chromaticraft
-- Added ProjectBlue
+# v3.8.0
+- Added GregTech 4
+- Added Invasion Mod
+- Fixed random ChromatiCraft crash

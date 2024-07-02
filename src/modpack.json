@@ -3,7 +3,7 @@
   "type": "modpack",
   "versions": [
     {
-      "version": "3.7.0",
+      "version": "3.8.0",
       "versionid": -1,
       "mcversion": [
         "1.7.10"
@@ -2173,6 +2173,34 @@
           "id": "mod-projectblue",
           "file": {
             "link": "https://cdn.tilera.xyz/minecraft/mods/projectblue/ProjectBlue-1.1.6-mc1.7.10.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+	{
+          "id": "mod-invasion",
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/mods/invasion/Invasion_1.1.2_1.7.10.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+	{
+          "id": "mod-gregtech4",
+          "file": {
+            "link": "https://maven.tilera.xyz/gregtechmod/gregtechmod/v417.57/gregtechmod-v417.57.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
