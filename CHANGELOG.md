@@ -1,4 +1,7 @@
-# v3.8.0
-- Added GregTech 4
-- Added Invasion Mod
-- Fixed random ChromatiCraft crash
+# v3.9.0
+- Added Dimensional Doors
+- Switched to GTNH NEI fork
+- Updated ICBM
+- Disabled some Gregtech bullshit
+- Tweaked HBM NTM
+- Disabled prefilled tanks and fireworks
