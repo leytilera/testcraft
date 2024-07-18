@@ -2197,10 +2197,24 @@
             "included"
           ]
         },
-	{
+	      {
           "id": "mod-gregtech4",
           "file": {
             "link": "https://maven.tilera.xyz/gregtechmod/gregtechmod/v417.57/gregtechmod-v417.57.jar",
+            "installer": "internal.dir:mods"
+          },
+          "type": "mod",
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ]
+        },
+        {
+          "id": "mod-dimdoors",
+          "file": {
+            "link": "https://cdn.tilera.xyz/minecraft/mods/dimdoors/DimensionalDoors-2.2.5-test9.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
