@@ -1,7 +1,3 @@
-# v3.9.0
-- Added Dimensional Doors
-- Switched to GTNH NEI fork
-- Updated ICBM
-- Disabled some Gregtech bullshit
-- Tweaked HBM NTM
-- Disabled prefilled tanks and fireworks
+# v3.10.0
+- Added custom Dimensional Doors dungeons
+- Updated NEID
