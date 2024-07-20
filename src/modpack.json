@@ -2212,7 +2212,7 @@
         {
           "id": "mod-dimdoors",
           "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/dimdoors/DimensionalDoors-2.2.5-test9.jar",
+            "link": "https://maven.tilera.xyz/org/dimdev/dimdoors/dimensionaldoors/2.2.6-1.7.10/dimensionaldoors-2.2.6-1.7.10.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
