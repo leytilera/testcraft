@@ -993,7 +993,7 @@
           "id": "235107",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235107:2308819",
+            "artifact": "curse.maven:235107:2679519",
             "repository": "curse"
           },
           "type": "mod",
