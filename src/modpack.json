@@ -1960,7 +1960,7 @@
         {
           "id": "mod-mixins",
           "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00gasstation-mc1.7.10-0.3.5.jar",
+            "link": "https://github.com/LegacyModdingMC/UniMixins/releases/download/0.1.17/+unimixins-all-1.7.10-0.1.17.jar",
             "installer": "internal.dir:mods"
           },
           "type": "mod",
