@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "recipeKey": "alectromat",
+      "recipes": [
+        {
+          "inputFluids": [],
+          "inputItems": [
+            ["item","cfm:ItemToaster"],
+            ["item","Mimicry:Sparr_Mimichite",16],
+            ["item","mod_Invasion:riftFlux",16]
+          ],
+          "outputFluids": [],
+          "outputItems": [
+            ["hbm:tile.deco_toaster", 1, 2, 1]
+          ],
+          "duration": 60,
+          "consumptionPerTick": 10000,
+          "pollutionType": "SOOT",
+          "pollutionAmount": 0.0,
+          "radiationAmount": 0.0,
+          "flux": 0,
+          "heat": 0
+        }
+      ]
+    }
+  ]
+}
