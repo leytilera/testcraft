@@ -21,6 +21,49 @@
           "radiationAmount": 0.0,
           "flux": 0,
           "heat": 0
+        },
+        {
+          "inputFluids": [],
+          "inputItems": [
+            ["item","minecraft:golden_apple",1,1],
+            ["item","minecraft:dragon_egg"],
+            ["item","minecraft:golden_carrot"]
+          ],
+          "outputFluids": [],
+          "outputItems": [
+            ["hbm:item.spawn_duck",1,1]
+          ],
+          "duration": 60,
+          "consumptionPerTick": 10000,
+          "pollutionType": "SOOT",
+          "pollutionAmount": 0.0,
+          "radiationAmount": 0.0,
+          "flux": 0,
+          "heat": 0
+        },
+        {
+          "inputFluids": [
+            ["ASCHRAB",1000]
+          ],
+          "inputItems": [
+            ["item", "hbm:item.spawn_duck"],
+            ["item","AtomicScience:itCellStrangeMatter"],
+            ["item","hbm:item.particle_dark"],
+            ["item","ExtraUtilities:cobblestone_compressed",1,7],
+            ["item","minecraft:obsidian",64],
+            ["item","minecraft:end_stone",64]
+          ],
+          "outputFluids": [],
+          "outputItems": [
+            ["minecraft:dragon_egg",1,1]
+          ],
+          "duration": 60,
+          "consumptionPerTick": 10000,
+          "pollutionType": "SOOT",
+          "pollutionAmount": 0.0,
+          "radiationAmount": 0.0,
+          "flux": 0,
+          "heat": 0
         }
       ]
     }
