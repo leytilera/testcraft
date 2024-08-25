@@ -811,11 +811,11 @@
           ]
         },
         {
-          "id": "242638",
+          "id": "industrialcraft",
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:242638:2353971",
-            "repository": "curse"
+            "artifact": "net.industrial-craft:industrialcraft-2:2.2.827-experimental",
+            "repository": "tilera"
           },
           "type": "mod",
           "options": [
