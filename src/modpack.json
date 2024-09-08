@@ -1922,7 +1922,7 @@
         {
           "file": {
             "installer": "internal.dir:mods",
-            "link": "https://edge.forgecdn.net/files/2961/721/Traincraft-4.4.1_021.jar"
+            "link": "https://maven.tilera.xyz/src/train/Traincraft/4.4.1_022/Traincraft-4.4.1_022.jar"
           },
           "meta": {
             "cf-file": "2961721",
