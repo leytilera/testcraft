@@ -759,7 +759,7 @@
         {
           "file": {
             "installer": "internal.dir:mods",
-            "link": "https://edge.forgecdn.net/files/2248/29/EngineersToolbox-1.2.3.0-BETA.jar"
+            "link": "https://maven.tilera.xyz/emasher/EngineersToolbox/1.2.3.0-BETA/EngineersToolbox-1.2.3.0-BETA.jar"
           },
           "meta": {
             "cf-file": "2248029",
