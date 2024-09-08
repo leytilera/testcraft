@@ -17,2222 +17,2742 @@
       ],
       "relations": [
         {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2287/442/Chisel-2.9.5.11.jar"
+          },
+          "meta": {
+            "cf-file": "2287442",
+            "name": "Chisel",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/chisel",
+            "cf-project": "235279"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
           "id": "chisel",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235279:2287442",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2513/763/PneumaticCraft-1.7.10-1.12.7-152-universal.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2513763",
+            "name": "PneumaticCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft",
+            "cf-project": "224125"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "pneumaticcraft",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:224125:2513763",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2838/720/CraftTweaker-1.7.10-3.1.0-legacy.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2838720",
+            "name": "CraftTweaker",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/crafttweaker",
+            "cf-project": "239197"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "crafttweaker",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:239197:2838720",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2248/928/PlayerAPI-1.7.10-1.4.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2248928",
+            "name": "Player API",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/player-api",
+            "cf-project": "228969"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "playerapi",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228969:2248928",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/4721/191/RotaryCraft 1.7.10 V33a.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "4721191",
+            "name": "RotaryCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/rotarycraft",
+            "cf-project": "235596"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "rotaryc",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235596:4721191",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/4721/203/ReactorCraft 1.7.10 V33a.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "4721203",
+            "name": "ReactorCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/reactorcraft",
+            "cf-project": "235593"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "reactorc",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235593:4721203",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/4721/198/ElectriCraft 1.7.10 V33a.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "4721198",
+            "name": "ElectriCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/electricraft",
+            "cf-project": "235594"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "electric",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235594:4721198",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/4722/480/DragonAPI 1.7.10 V33b.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "4722480",
+            "name": "DragonAPI",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/dragonapi",
+            "cf-project": "235591"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "dragonapi",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235591:4722480",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/4721/192/ChromatiCraft 1.7.10 V33a.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "4721192",
+            "name": "ChromatiCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/chromaticraft",
+            "cf-project": "235590"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-	{
+          ],
           "id": "chromatic",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235590:4721192",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2252/359/Mimicry-1.7.10_1492_1.0.10c.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2252359",
+            "name": "Mimicry",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mimicry",
+            "cf-project": "223904"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "223904",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:223904:2252359",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2210/792/InventoryTweaks-1.59-dev-152.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2210792",
+            "name": "Inventory Tweaks [1.12 only] ",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-tweaks",
+            "cf-project": "223094"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "223094",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:223094:2210792",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2291/433/FTBLib-1.7.10-1.0.18.3.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2291433",
+            "name": "FTB Library (Forge) (Legacy)",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-legacy-forge",
+            "cf-project": "237167"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "237167",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:237167:2291433",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2291/494/FTBUtilities-1.7.10-1.0.18.3.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2291494",
+            "name": "FTB Utilities (Forge)",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ftb-utilities-forge",
+            "cf-project": "237102"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "237102",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:237102:2291494",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2614/309/additionalpipes-4.7.7.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2614309",
+            "name": "Additional Pipes for Buildcraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/additional-pipes-for-buildcraft",
+            "cf-project": "302569"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "302569",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:302569:2614309",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2628/991/ABO-MC1.7.10-BC7.1release4.0.10.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2628991",
+            "name": "Additional-Buildcraft-Objects",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/additional-buildcraft-objects",
+            "cf-project": "230250"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "230250",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:230250:2628991",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2427/862/logisticspipes-0.9.3.132.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2427862",
+            "name": "Logistics Pipes",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/logistics-pipes",
+            "cf-project": "232838"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "232838",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:232838:2427862",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2502/739/buildcraft-7.1.23.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2502739",
+            "name": "Buildcraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft",
+            "cf-project": "61811"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "61811",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:61811:2502739",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2903/887/advancedgenetics-1.7.10-1.5.9.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2903887",
+            "name": "project-367919",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/project-367919",
+            "cf-project": "367919"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "367919",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:367919:2903887",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2280/862/1.7.10_AM2-1.4.0.009.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2280862",
+            "name": "Ars Magica 2",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ars-magica-2",
+            "cf-project": "67313"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "67313",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:67313:2280862",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2772/380/backpacks 1.7.10 - 3.5.8.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2772380",
+            "name": "Backpacks!",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/backpacks",
+            "cf-project": "223957"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "223957",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:223957:2772380",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2556/640/balancedexchange 1.7.10 - 3.5.0.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2556640",
+            "name": "Balanced Exchange",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/balanced-exchange",
+            "cf-project": "223959"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "223959",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:223959:2556640",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2423/369/BiblioCraft[v1.11.7][MC1.7.10].jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2423369",
+            "name": "BiblioCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft",
+            "cf-project": "228027"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228027",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228027:2423369",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2282/591/BigReactors-0.4.3A.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2282591",
+            "name": "Big Reactors",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/big-reactors",
+            "cf-project": "241994"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "241994",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:241994:2282591",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2388/750/CoFHCore-[1.7.10]3.1.4-329.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2388750",
+            "name": "CoFH Core",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
+            "cf-project": "69162"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "69162",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:69162:2388750",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2467/142/binnie-mods-1.7.10-2.0.22.7.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2467142",
+            "name": "Binnie's Mods",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/binnies-mods",
+            "cf-project": "223525"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "223525",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:223525:2467142",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2333/823/forestry_1.7.10-4.2.16.64.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2333823",
+            "name": "Forestry",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/forestry",
+            "cf-project": "59751"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "59751",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:59751:2333823",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2264/826/BloodMagic-1.7.10-1.3.3-17.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2264826",
+            "name": "Blood Magic ",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/blood-magic",
+            "cf-project": "224791"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "224791",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:224791:2264826",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2272/835/BuildcraftAdditions-1.7.10-2.2.5.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2272835",
+            "name": "Buildcraft Additions",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft-additions",
+            "cf-project": "221014"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "221014",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:221014:2272835",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2235/481/Eureka-1.7.10-3.0.2.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2235481",
+            "name": "Eureka",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/eureka",
+            "cf-project": "222995"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "222995",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:222995:2235481",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2719/376/Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2719376",
+            "name": "Carpenter's Blocks",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
+            "cf-project": "228932"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228932",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228932:2719376",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2230/918/CompactSolars-1.7.10-4.4.39.315-universal.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2230918",
+            "name": "Compact Solars",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/compact-solars",
+            "cf-project": "228759"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228759",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228759:2230918",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2269/339/ComputerCraft1.75.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2269339",
+            "name": "ComputerCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/computercraft",
+            "cf-project": "67504"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "67504",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:67504:2269339",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2230/737/DynamicTransport-0.1.2.0.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2230737",
+            "name": "Dynamic Transport",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/dynamic-transport",
+            "cf-project": "226712"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "226712",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:226712:2230737",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2230/809/SlimevoidLibrary-2.0.4.7.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2230809",
+            "name": "Slimevoid Library",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/slimevoid-library",
+            "cf-project": "228744"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228744",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228744:2230809",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2336/582/ElectroMagicTools-1.2.6.2[1.7.10].jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2336582",
+            "name": "Electro-Magic Tools",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/electro-magic-tools",
+            "cf-project": "236669"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "236669",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:236669:2336582",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2942/270/EnderIO-1.7.10-2.3.1.10_beta.0.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2942270",
+            "name": "EnderIO Unofficial",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/enderio-unofficial",
+            "cf-project": "379275"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "379275",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:379275:2942270",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2331/48/EnderCore-1.7.10-0.2.0.39_beta.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2331048",
+            "name": "EnderCore",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/endercore",
+            "cf-project": "231868"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "231868",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:231868:2331048",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2248/29/EngineersToolbox-1.2.3.0-BETA.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2248029",
+            "name": "Engineer's Toolbox",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/engineers-toolbox",
+            "cf-project": "224613"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "224613",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:224613:2248029",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2262/92/EnderStorage-1.7.10-1.4.7.37-universal.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2262092",
+            "name": "Ender Storage",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ender-storage",
+            "cf-project": "229306"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229306",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229306:2262092",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
+          "type": "mod"
         },
         {
-          "id": "mod-ccc",
           "file": {
             "installer": "internal.dir:mods",
             "link": "https://cdn.modrinth.com/data/qMOdaUOs/versions/VEX8yogi/CodeChickenCore-1.3.6.jar"
           },
-          "type": "mod",
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
+          ],
+          "id": "mod-ccc",
+          "type": "mod"
         },
         {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2242/378/EnhancedPortals_1.7.10-universal-3.0.12.jar"
+          },
+          "meta": {
+            "cf-file": "2242378",
+            "name": "Enhanced Portals 3",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-portals-3",
+            "cf-project": "225921"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
           "id": "225921",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:225921:2242378",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2264/383/extrautilities-1.2.12.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2264383",
+            "name": "Extra Utilities",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities",
+            "cf-project": "225561"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "225561",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:225561:2264383",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2497/337/ExtraCells-1.7.10-2.3.14b200.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2497337",
+            "name": "ExtraCells2",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/extracells2",
+            "cf-project": "229218"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229218",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229218:2497337",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2990/432/Factorization-1.7.10-0.8.108 (Unofficial).jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2990432",
+            "name": "Factorization (Unofficial)",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/factorization-unofficial",
+            "cf-project": "392300"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "392300",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:392300:2990432",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2269/267/gendustry-1.6.3.132-mc1.7.10.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2269267",
+            "name": "Gendustry",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/gendustry",
+            "cf-project": "70492"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "70492",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:70492:2269267",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2269/259/bdlib-1.9.4.109-mc1.7.10.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2269259",
+            "name": "BdLib",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/bdlib",
+            "cf-project": "70496"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "70496",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:70496:2269259",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2747/606/MicdoodleCore-1.7-3.0.12.504.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2747606",
+            "name": "Galacticraft1",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/galacticraftisfun",
+            "cf-project": "332040"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "332040",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:332040:2747606",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2738/315/GalacticraftCore-1.7-3.0.12.504.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2738315",
+            "name": "Space Explore!!!!",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/space-explore",
+            "cf-project": "326856"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "326856",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:326856:2738315",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2747/605/Galacticraft-Planets-1.7-3.0.12.504.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2747605",
+            "name": "Galacticraft1",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/galacticraftisfun",
+            "cf-project": "332040"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "332040",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:332040:2747605",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2232/170/Hats-4.0.1.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2232170",
+            "name": "Hats",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/hats",
+            "cf-project": "229073"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229073",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229073:2232170",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2338/148/iChunUtil-4.2.3.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2338148",
+            "name": "iChunUtil",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/ichunutil",
+            "cf-project": "229060"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229060",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229060:2338148",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2211/247/hopperductmod-1.7.10-1.3.2.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2211247",
+            "name": "Hopper Ducts",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/hopper-ducts",
+            "cf-project": "72210"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "72210",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:72210:2211247",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2464/673/IC2NuclearControl-2.4.3a.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2464673",
+            "name": "Nuclear Control 2",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/nuclear-control-2",
+            "cf-project": "236813"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "236813",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:236813:2464673",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
+          "type": "mod"
         },
         {
-          "id": "industrialcraft",
           "file": {
-            "installer": "internal.dir:mods",
             "artifact": "net.industrial-craft:industrialcraft-2:2.2.827-experimental",
+            "installer": "internal.dir:mods",
             "repository": "tilera"
           },
-          "type": "mod",
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
+          ],
+          "id": "industrialcraft",
+          "type": "mod"
         },
         {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2230/908/ironchest-1.7.10-6.0.62.742-universal.jar"
+          },
+          "meta": {
+            "cf-file": "2230908",
+            "name": "Iron Chests",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
+            "cf-project": "228756"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
           "id": "228756",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228756:2230908",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2231/112/magicalcrops-1.7.10_0.1.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2231112",
+            "name": "Magical Crops",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/magical-crops",
+            "cf-project": "228834"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228834",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228834:2231112",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2905/830/MineChem Mod 1.7.10.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2905830",
+            "name": "MineChem Recompile",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/minechem-recompile",
+            "cf-project": "368422"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "368422",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:368422:2905830",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2277/485/MineFactoryReloaded-[1.7.10]2.8.1-174.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2277485",
+            "name": "Minefactory Reloaded",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded",
+            "cf-project": "66672"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "66672",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:66672:2277485",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2885/953/AdvancedSolarPanel_1.7.10_Edition.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2885953",
+            "name": "Advanced Solar Panel For 1.7.10 (Unofficial)",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels",
+            "cf-project": "362768"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "362768",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:362768:2885953",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2681/442/GraviSuite_1.7.10_2.0.3.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2681442",
+            "name": "Gravitation Suite 1.7.10",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/gravitation-suite-1-7-10",
+            "cf-project": "316141"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "316141",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:316141:2681442",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2666/986/ModularPowersuits-1.7.10-0.11.1.117.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2666986",
+            "name": "Modular Powersuits",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/modular-powersuits",
+            "cf-project": "235442"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "235442",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235442:2666986",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2681/246/Numina-0.4.1.106.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2681246",
+            "name": "Numina",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/numina",
+            "cf-project": "235440"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "235440",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235440:2681246",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2221/679/MrCrayfishFurnitureModv3.4.7(1.7.10).jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2221679",
+            "name": "MrCrayfish's Furniture Mod (Legacy)",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod",
+            "cf-project": "55438"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "55438",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:55438:2221679",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2417/42/mystcraft-1.7.10-0.12.3.04.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2417042",
+            "name": "Mystcraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mystcraft",
+            "cf-project": "224599"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "224599",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:224599:2417042",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
+          "type": "mod"
         },
         {
-          "id": "mod-nei",
           "file": {
             "installer": "internal.dir:mods",
             "link": "https://cdn.modrinth.com/data/iNPc3Onu/versions/rTIa7N7Q/NotEnoughItems-2.6.14-GTNH.jar"
           },
-          "type": "mod",
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
+          ],
+          "id": "mod-nei",
+          "type": "mod"
         },
         {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2679/519/NotEnoughIDs-1.4.3.5.jar"
+          },
+          "meta": {
+            "cf-file": "2679519",
+            "name": "NotEnoughIDs",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/notenoughids",
+            "cf-project": "235107"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
           "id": "235107",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:235107:2679519",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2272/500/NotEnoughResources-1.7.10-0.1.0-122.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2272500",
+            "name": "NotEnoughResources",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/notenoughresources",
+            "cf-project": "225815"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "225815",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:225815:2272500",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2210/527/ObsidiPlates-1.7.10-universal-3.0.0.18.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2210527",
+            "name": "ObsidiPlates",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/obsidiplates",
+            "cf-project": "59769"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "59769",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:59769:2210527",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2386/733/OpenBlocks-1.7.10-1.6.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2386733",
+            "name": "OpenBlocks",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/openblocks",
+            "cf-project": "228816"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228816",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228816:2386733",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2765/573/OpenModsLib-1.7.10-0.10.1.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2765573",
+            "name": "OpenModsLib",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/openmodslib",
+            "cf-project": "228815"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228815",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228815:2765573",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2828/353/OpenComputers-MC1.7.10-1.7.5.1290-universal.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2828353",
+            "name": "OpenComputers",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/opencomputers",
+            "cf-project": "223008"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "223008",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:223008:2828353",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2480/16/PortalGun-4.0.0-beta-6-fix-1.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2480016",
+            "name": "Portal Gun",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/portal-gun",
+            "cf-project": "229084"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229084",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229084:2480016",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2263/111/PowerConverters-1.7.10-2.11.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2263111",
+            "name": "Power Converters3",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/power-converters3",
+            "cf-project": "225064"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "225064",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:225064:2263111",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2280/736/ProjectRed-1.7.10-4.7.0pre12.95-Compat.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2280736",
+            "name": "Project Red - Compat",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/project-red-compat",
+            "cf-project": "229050"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229050",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229050:2280736",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2280/728/ProjectRed-1.7.10-4.7.0pre12.95-Base.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2280728",
+            "name": "Project Red - Core",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/project-red-core",
+            "cf-project": "228702"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228702",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228702:2280728",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2280/732/ProjectRed-1.7.10-4.7.0pre12.95-Fabrication.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2280732",
+            "name": "Project Red - Fabrication",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/project-red-fabrication",
+            "cf-project": "230111"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "230111",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:230111:2280732",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2280/731/ProjectRed-1.7.10-4.7.0pre12.95-Integration.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2280731",
+            "name": "Project Red - Integration",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/project-red-integration",
+            "cf-project": "229045"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229045",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229045:2280731",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2280/733/ProjectRed-1.7.10-4.7.0pre12.95-Lighting.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2280733",
+            "name": "Project Red - Illumination",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/project-red-illumination",
+            "cf-project": "229046"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229046",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229046:2280733",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2280/734/ProjectRed-1.7.10-4.7.0pre12.95-Mechanical.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2280734",
+            "name": "Project Red - Expansion",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/project-red-expansion",
+            "cf-project": "229048"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229048",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229048:2280734",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2332/516/qCraft-1.7.10-1.2.2.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2332516",
+            "name": "qCraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/qcraft",
+            "cf-project": "242974"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "242974",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:242974:2332516",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2299/713/Railcraft_1.7.10-9.12.2.0.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2299713",
+            "name": "Railcraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/railcraft",
+            "cf-project": "51195"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "51195",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:51195:2299713",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2225/310/RandomThings-2.2.4.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2225310",
+            "name": "Random Things",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/random-things",
+            "cf-project": "59816"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "59816",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:59816:2225310",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2277/490/RedstoneArsenal-[1.7.10]1.1.2-92.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2277490",
+            "name": "Redstone Arsenal",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/redstone-arsenal",
+            "cf-project": "70631"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "70631",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:70631:2277490",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2230/525/RemoteIO-1.7.10-2.3.B0-universal.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2230525",
+            "name": "Remote IO",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/remote-io",
+            "cf-project": "67593"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "67593",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:67593:2230525",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2267/185/SimplyJetpacks-MC1.7.10-1.5.3.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2267185",
+            "name": "Simply Jetpacks",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/simply-jetpacks",
+            "cf-project": "79325"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "79325",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:79325:2267185",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2388/747/CoFHLib-[1.7.10]1.2.1-185.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2388747",
+            "name": "CoFH Lib",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
+            "cf-project": "220333"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "220333",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:220333:2388747",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2373/415/SpmodAPI Version 1.0.2.6.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2373415",
+            "name": "SpmodAPI",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/spmodapi",
+            "cf-project": "242292"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "242292",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:242292:2373415",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2230/425/StevesCarts2.0.0.b18.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2230425",
+            "name": "Steve's Carts 2",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/steves-carts-2",
+            "cf-project": "228625"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228625",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228625:2230425",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2230/424/StevesFactoryManagerA93.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2230424",
+            "name": "Steve's Factory Manager",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/steves-factory-manager",
+            "cf-project": "228626"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "228626",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:228626:2230424",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2264/246/TConstruct-1.7.10-1.8.8.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2264246",
+            "name": "Tinkers Construct",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct",
+            "cf-project": "74072"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "74072",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:74072:2264246",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2272/157/TMechworks-1.7.10-0.2.15.106.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2272157",
+            "name": "Tinkers' Mechworks",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-mechworks",
+            "cf-project": "78057"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "78057",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:78057:2272157",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2264/244/Mantle-1.7.10-0.3.2b.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2264244",
+            "name": "Mantle",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/mantle",
+            "cf-project": "74924"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "74924",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:74924:2264244",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2227/552/Thaumcraft-1.7.10-4.2.3.5.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2227552",
+            "name": "Thaumcraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft",
+            "cf-project": "223628"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "223628",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:223628:2227552",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2388/752/ThermalFoundation-[1.7.10]1.2.6-118.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2388752",
+            "name": "Thermal Foundation",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-foundation",
+            "cf-project": "222880"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "222880",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:222880:2388752",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2388/758/ThermalExpansion-[1.7.10]4.1.5-248.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2388758",
+            "name": "Thermal Expansion",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-expansion",
+            "cf-project": "69163"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "69163",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:69163:2388758",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2388/756/ThermalDynamics-[1.7.10]1.2.1-172.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2388756",
+            "name": "Thermal Dynamics",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/thermal-dynamics",
+            "cf-project": "227443"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "227443",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:227443:2388756",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2961/721/Traincraft-4.4.1_021.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2961721",
+            "name": "Traincraft",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/traincraft",
+            "cf-project": "245169"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "245169",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:245169:2961721",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/4629/338/TwilightForest-2.4.3.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "4629338",
+            "name": "The Twilight Forest",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest",
+            "cf-project": "227639"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "227639",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:227639:4629338",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2435/506/VeinMiner-1.7.10-0.36.0.496+28a7f13.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2435506",
+            "name": "VeinMiner",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/veinminer",
+            "cf-project": "67133"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "67133",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:67133:2435506",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2308/375/veinminermodintegration-0.5.1-1.7.10r22+0e0e47b.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2308375",
+            "name": "VeinMiner Mod Integration",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/veinminer-mod-integration",
+            "cf-project": "227576"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "227576",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:227576:2308375",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2270/923/WailaHarvestability-mc1.7.10-1.1.6.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2270923",
+            "name": "Waila Harvestability",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/waila-harvestability",
+            "cf-project": "79287"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "79287",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:79287:2270923",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2230/518/Waila-1.5.10_1.7.10.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2230518",
+            "name": "Waila",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/waila",
+            "cf-project": "73488"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "73488",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:73488:2230518",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2234/410/witchery-1.7.10-0.24.1.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2234410",
+            "name": "Witchery",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/witchery",
+            "cf-project": "69673"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "69673",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:69673:2234410",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2367/915/journeymap-1.7.10-5.1.4p2-unlimited.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2367915",
+            "name": "JourneyMap",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
+            "cf-project": "32274"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "32274",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:32274:2367915",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2233/235/WR-CBE-1.7.10-1.4.1.9-universal.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2233235",
+            "name": "WR-CBE-Universal",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/wr-cbe-universal",
+            "cf-project": "229314"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "229314",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:229314:2233235",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2221/721/AnimationAPI-1.7.10-1.2.4.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2221721",
+            "name": "AnimationAPI",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/animationapi",
+            "cf-project": "77191"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "77191",
+          "type": "mod"
+        },
+        {
           "file": {
             "installer": "internal.dir:mods",
-            "artifact": "curse.maven:77191:2221721",
-            "repository": "curse"
+            "link": "https://edge.forgecdn.net/files/2250/916/ParticlePhysics-1.7.10-1.0.49.jar"
           },
-          "type": "mod",
+          "meta": {
+            "cf-file": "2250916",
+            "name": "Particle Physics",
+            "url": "https://www.curseforge.com/minecraft/mc-mods/particle-physics",
+            "cf-project": "231208"
+          },
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "231208",
-          "file": {
-            "installer": "internal.dir:mods",
-            "artifact": "curse.maven:231208:2250916",
-            "repository": "curse"
-          },
-          "type": "mod",
-          "options": [
-            "required",
-            "client",
-            "server",
-            "included"
-          ]
+          "type": "mod"
         },
         {
-          "id": "tcu",
           "file": {
-            "installer": "internal.dir:mods",
             "artifact": "ley.modding:testcraftupdate:1.1.0",
+            "installer": "internal.dir:mods",
             "repository": "tilera"
           },
-          "type": "mod",
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
+          ],
+          "id": "tcu",
+          "type": "mod"
         },
         {
-          "id": "appeng",
+          "file": {
+            "artifact": "appeng:appliedenergistics2:rv3-beta-24",
+            "installer": "internal.dir:mods",
+            "repository": "tilera"
+          },
           "meta": {
             "name": "AppEng 2 tilera Edition"
           },
-          "file": {
-            "artifact": "appeng:appliedenergistics2:rv3-beta-24",
-            "repository": "tilera",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "appeng",
+          "type": "mod"
         },
         {
-          "id": "dartcraft",
+          "file": {
+            "artifact": "ley.modding:dartcraft:1.0",
+            "installer": "internal.dir:mods",
+            "repository": "tilera"
+          },
           "meta": {
             "name": "Dartcraft Alpha"
           },
-          "file": {
-            "artifact": "ley.modding:dartcraft:1.0",
-            "repository": "tilera",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "dartcraft",
+          "type": "mod"
         },
         {
-          "id": "pocketcraft",
+          "file": {
+            "artifact": "ley.modding:pocketcraft:1.0",
+            "installer": "internal.dir:mods",
+            "repository": "tilera"
+          },
           "meta": {
             "name": "PocketCraft"
           },
-          "file": {
-            "artifact": "ley.modding:pocketcraft:1.0",
-            "repository": "tilera",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "pocketcraft",
+          "type": "mod"
         },
         {
-          "id": "advmachines",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "http://immibis.com/mcmoddl/files/advanced-machines-59.0.2.jar"
+          },
           "meta": {
             "name": "Advanced Machines"
           },
-          "file": {
-            "link": "http://immibis.com/mcmoddl/files/advanced-machines-59.0.2.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "advmachines",
+          "type": "mod"
         },
         {
-          "id": "advrepsys",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "http://immibis.com/mcmoddl/files/adv-repulsion-systems-59.0.4.jar"
+          },
           "meta": {
             "name": "Advanced Repulsion Systems"
           },
-          "file": {
-            "link": "http://immibis.com/mcmoddl/files/adv-repulsion-systems-59.0.4.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "advrepsys",
+          "type": "mod"
         },
         {
-          "id": "immibiscore",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "http://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar"
+          },
           "meta": {
             "name": "Immibis Core"
           },
-          "file": {
-            "link": "http://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "immibiscore",
+          "type": "mod"
         },
         {
-          "id": "immibisperi",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "http://immibis.com/mcmoddl/files/immibis-peripherals-59.0.3.jar"
+          },
           "meta": {
             "name": "Immibis Peripherals"
           },
-          "file": {
-            "link": "http://immibis.com/mcmoddl/files/immibis-peripherals-59.0.3.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "immibisperi",
+          "type": "mod"
         },
         {
-          "id": "liquidxp",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar"
+          },
           "meta": {
             "name": "Liquid XP"
           },
-          "file": {
-            "link": "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "liquidxp",
+          "type": "mod"
         },
         {
-          "id": "tubestuff",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "http://immibis.com/mcmoddl/files/tubestuff-59.0.4.jar"
+          },
           "meta": {
             "name": "TubeStuff"
           },
-          "file": {
-            "link": "http://immibis.com/mcmoddl/files/tubestuff-59.0.4.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "tubestuff",
+          "type": "mod"
         },
         {
-          "id": "statues",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/STATUES-1.7.10-2.1.4.jar"
+          },
           "meta": {
             "name": "Statues"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/STATUES-1.7.10-2.1.4.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "statues",
+          "type": "mod"
         },
         {
-          "id": "asielib",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/AsieLib-1.7.10-0.4.9.jar"
+          },
           "meta": {
             "name": "Asie Lib"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/statues/AsieLib-1.7.10-0.4.9.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "asielib",
+          "type": "mod"
         },
         {
-          "id": "baubles",
+          "file": {
+            "installer": "internal.dir:mods/1.7.10",
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/Baubles-1.7.10-1.0.1.10.jar"
+          },
           "meta": {
             "name": "Baubles"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/Baubles-1.7.10-1.0.1.10.jar",
-            "installer": "internal.dir:mods/1.7.10"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "baubles",
+          "type": "mod"
         },
         {
-          "id": "ccl",
+          "file": {
+            "installer": "internal.dir:mods/1.7.10",
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/CodeChickenLib-1.7.10-1.1.3.138-universal.jar"
+          },
           "meta": {
             "name": "CodeChickenLib"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/CodeChickenLib-1.7.10-1.1.3.138-universal.jar",
-            "installer": "internal.dir:mods/1.7.10"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "ccl",
+          "type": "mod"
         },
         {
-          "id": "fmp",
+          "file": {
+            "installer": "internal.dir:mods/1.7.10",
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeMultipart-1.7.10-1.2.0.345-universal.jar"
+          },
           "meta": {
             "name": "ForgeMultipart"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeMultipart-1.7.10-1.2.0.345-universal.jar",
-            "installer": "internal.dir:mods/1.7.10"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "fmp",
+          "type": "mod"
         },
         {
-          "id": "reloc",
+          "file": {
+            "installer": "internal.dir:mods/1.7.10",
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocation-0.0.1.4-universal.jar"
+          },
           "meta": {
             "name": "ForgeRelocation"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocation-0.0.1.4-universal.jar",
-            "installer": "internal.dir:mods/1.7.10"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "reloc",
+          "type": "mod"
         },
         {
-          "id": "relocfmp",
+          "file": {
+            "installer": "internal.dir:mods/1.7.10",
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocationFMP-0.0.1.2-universal.jar"
+          },
           "meta": {
             "name": "ForgeRelocation FMP"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/ForgeRelocationFMP-0.0.1.2-universal.jar",
-            "installer": "internal.dir:mods/1.7.10"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "relocfmp",
+          "type": "mod"
         },
         {
-          "id": "mrtjp",
+          "file": {
+            "installer": "internal.dir:mods/1.7.10",
+            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/MrTJPCore-1.1.0.33-universal.jar"
+          },
           "meta": {
             "name": "MrTJPCore"
           },
-          "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/modpacks/addonscript/testcraft/MrTJPCore-1.1.0.33-universal.jar",
-            "installer": "internal.dir:mods/1.7.10"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "mrtjp",
+          "type": "mod"
         },
         {
-          "id": "alchemycraft",
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://cdn.modrinth.com/data/7gxxb9BE/versions/1.0.1/alchemycraft-1.0.jar"
+          },
           "meta": {
             "name": "Alchemycraft"
           },
-          "file": {
-            "link": "https://cdn.modrinth.com/data/7gxxb9BE/versions/1.0.1/alchemycraft-1.0.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
+          ],
+          "id": "alchemycraft",
+          "type": "mod"
         },
         {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.2/cwg-1.7.2.jar"
+          },
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ],
           "id": "mod-cwg",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.2/cwg-1.7.2.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://cdn.tilera.xyz/minecraft/mods/unimixins/+unimixins-all-1.7.10-0.1.17.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-mixins",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/unimixins/+unimixins-all-1.7.10-0.1.17.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.2.2/universalelectricity-5.2.2.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-universalelectricity",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.2.2/universalelectricity-5.2.2.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.1/basiccomponents-2.0.1.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-basiccomponents",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.1/basiccomponents-2.0.1.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.2/electricexpansion-1.0.2.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-electricexpansion",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.2/electricexpansion-1.0.2.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.3/assemblyline-1.0.3.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-assemblyline",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.3/assemblyline-1.0.3.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.3/atomicscience-1.1.3.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-atomicscience",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.3/atomicscience-1.1.3.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.8/mffs-1.0.8.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-mffs",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.8/mffs-1.0.8.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.9/icbm-1.0.9.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-icbm",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.9/icbm-1.0.9.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.14.0-pre1/Mekanism-1.7.10-9.14.0-pre1.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-mekanism",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.14.0-pre1/Mekanism-1.7.10-9.14.0-pre1.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.9.1/auracore-1.9.1.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-auracore",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.9.1/auracore-1.9.1.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.4.1/classic-casting-1.4.1.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-classiccasting",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.4.1/classic-casting-1.4.1.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr10-dirty/RedPower-2.0pr10-dirty.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-redpower",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr10-dirty/RedPower-2.0pr10-dirty.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://files.vexatos.com/Computronics/Computronics-1.7.10-1.6.6.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-computronics",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://files.vexatos.com/Computronics/Computronics-1.7.10-1.6.6.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://cdn.modrinth.com/data/M4Z75E5X/versions/11b11Ygl/HBM-NTM-%5B1.0.27_X4998%5D.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-	{
+          ],
           "id": "mod-hbm",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://cdn.modrinth.com/data/M4Z75E5X/versions/11b11Ygl/HBM-NTM-%5B1.0.27_X4998%5D.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/net/anvilcraft/pccompat/0.2.1/pccompat-0.2.1.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-	{
+          ],
           "id": "mod-pccompat",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/net/anvilcraft/pccompat/0.2.1/pccompat-0.2.1.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://cdn.tilera.xyz/minecraft/mods/projectblue/ProjectBlue-1.1.6-mc1.7.10.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-	{
+          ],
           "id": "mod-projectblue",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/projectblue/ProjectBlue-1.1.6-mc1.7.10.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://cdn.tilera.xyz/minecraft/mods/invasion/Invasion_1.1.2_1.7.10.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-	{
+          ],
           "id": "mod-invasion",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://cdn.tilera.xyz/minecraft/mods/invasion/Invasion_1.1.2_1.7.10.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/gregtechmod/gregtechmod/v417.57/gregtechmod-v417.57.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-	      {
+          ],
           "id": "mod-gregtech4",
+          "type": "mod"
+        },
+        {
           "file": {
-            "link": "https://maven.tilera.xyz/gregtechmod/gregtechmod/v417.57/gregtechmod-v417.57.jar",
-            "installer": "internal.dir:mods"
+            "installer": "internal.dir:mods",
+            "link": "https://maven.tilera.xyz/org/dimdev/dimdoors/dimensionaldoors/2.2.6-1.7.10/dimensionaldoors-2.2.6-1.7.10.jar"
           },
-          "type": "mod",
           "options": [
             "server",
             "client",
             "required",
             "included"
-          ]
-        },
-        {
+          ],
           "id": "mod-dimdoors",
-          "file": {
-            "link": "https://maven.tilera.xyz/org/dimdev/dimdoors/dimensionaldoors/2.2.6-1.7.10/dimensionaldoors-2.2.6-1.7.10.jar",
-            "installer": "internal.dir:mods"
-          },
-          "type": "mod",
-          "options": [
-            "server",
-            "client",
-            "required",
-            "included"
-          ]
+          "type": "mod"
         },
         {
-          "id": "forge",
           "versions": "[1.7.10-10.13.4.1614-1.7.10]",
-          "type": "modloader",
           "options": [
             "required",
             "client",
             "server",
             "included"
-          ]
+          ],
+          "id": "forge",
+          "type": "modloader"
         }
       ]
     }
