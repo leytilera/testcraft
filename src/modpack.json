@@ -2744,6 +2744,34 @@
           "type": "mod"
         },
         {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2462/369/CreativeCore%20v1.3.24%20mc1.7.10.jar"
+          },
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ],
+          "id": "mod-creativecore",
+          "type": "mod"
+        },
+        {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2486/883/OnlinePicFrame%20v1.0%20mc1.7.10.jar"
+          },
+          "options": [
+            "server",
+            "client",
+            "required",
+            "included"
+          ],
+          "id": "mod-opf",
+          "type": "mod"
+        },
+        {
           "versions": "[1.7.10-10.13.4.1614-1.7.10]",
           "options": [
             "required",
