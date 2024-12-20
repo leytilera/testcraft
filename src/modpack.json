@@ -2141,6 +2141,82 @@
         },
         {
           "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2270/295/ae2stuff-rv3-0.5.1.9-mc1.7.10.jar"
+          },
+          "meta": {
+            "cf-file": "2270295",
+            "name": "AE2 Stuff",
+            "cf-project": "225194"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
+          "id": "225194",
+          "type": "mod"
+        },
+        {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2460/354/WirelessCraftingTerminal-1.7.10-rv3-1.8.7.9b.jar"
+          },
+          "meta": {
+            "cf-file": "2460354",
+            "name": "Wireless Crafting Terminal",
+            "cf-project": "244559"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
+          "id": "244559",
+          "type": "mod"
+        },
+        {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2359/471/p455w0rdslib-1.7.10-1.0.4.jar"
+          },
+          "meta": {
+            "cf-file": "2359471",
+            "name": "p455w0rdslib",
+            "cf-project": "255232"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
+          "id": "255232",
+          "type": "mod"
+        },
+        {
+          "file": {
+            "installer": "internal.dir:mods",
+            "link": "https://edge.forgecdn.net/files/2233/777/GravityGun-4.0.0-beta.jar"
+          },
+          "meta": {
+            "cf-file": "2233777",
+            "name": "Gravity Gun",
+            "cf-project": "229072"
+          },
+          "options": [
+            "required",
+            "client",
+            "server",
+            "included"
+          ],
+          "id": "229072",
+          "type": "mod"
+        },
+        {
+          "file": {
             "artifact": "ley.modding:testcraftupdate:1.1.0",
             "installer": "internal.dir:mods",
             "repository": "tilera"
