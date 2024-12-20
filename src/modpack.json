@@ -2710,7 +2710,7 @@
         {
           "file": {
             "installer": "internal.dir:mods",
-            "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr10-dirty/RedPower-2.0pr10-dirty.jar"
+            "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr11-dirty/RedPower-2.0pr11-dirty.jar"
           },
           "options": [
             "server",
